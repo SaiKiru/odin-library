@@ -1,0 +1,22 @@
+:root {
+    --text-muted: #777777;
+    box-sizing: border-box;
+}
+
+#header h1 {
+    text-align: center;
+}
+
+#book-list {
+    margin: auto;
+    width: max(620px, 70%);
+}
+
+#book-list thead th {
+    padding-block: 16px;
+    color: var(--text-muted)
+}
+
+#book-list tbody tr td {
+    padding-block: 8px;
+}

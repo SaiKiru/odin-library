@@ -26,6 +26,37 @@
         <!-- keep empty. This will be populated with books in JS -->
       </tbody>
     </table>
+    <button id="add-book-btn">+ Add Book</button>
+  </div>
+
+  <div id="add-book-dialog" class="dialog-container">
+    <div class="dialog">
+      <div class="dialog-title">Add a Book</div>
+      <div class="dialog-form">
+        <div>
+          <label for="add-book-dialog-title">Title</label>
+          <input type="text" id="add-book-dialog-title">
+        </div>
+        <div>
+          <label for="add-book-dialog-author">Author</label>
+          <input type="text" id="add-book-dialog-author">
+        </div>
+        <div>
+          <label for="add-book-dialog-pages">Pages</label>
+          <input type="number" id="add-book-dialog-pages" min="0" step="1">
+        </div>
+        <div>
+          <input type="checkbox" id="add-book-dialog-status">
+          <label for="add-book-dialog-status">Finished Reading</label>
+        </div>
+
+      </div>
+      <div class="dialog-buttons">
+        <button id="add-book-dialog-close" class="destructive">CLOSE</button>
+        <button id="add-book-dialog-add" class="primary">ADD</button>
+      </div>
+    </div>
+    <div class="shader"></div>
   </div>
 </body>
 
